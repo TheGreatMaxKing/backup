@@ -1,0 +1,15 @@
+{
+  "name": "kafkajob",
+  "version": "1.0.0",
+  "description": "kafka1.0/2.0生产消费数据",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "avsc": "^5.7.7",
+    "wisrtoni40-confluent-schema": "^1.0.0"
+  }
+}

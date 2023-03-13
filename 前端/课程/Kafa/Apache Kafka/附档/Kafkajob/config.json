@@ -1,0 +1,40 @@
+{
+    "kafka1": {
+        "comment_kafkaHost": "kafka broker配置项",
+        "kafkaHost": "192.168.56.103:9093,192.168.56.103:9094,192.168.56.103:9095",
+        "comment_clientId": "kafka 客户端 ID,可自己定义",
+        "clientId": "kafka1.0testDylan_20221229",
+        "comment_publishKafkaTopic": "抛送目标topic,可以配置多个topic",
+        "publishKafkaTopic": {
+            "testtopic": "dylan.test"
+        },
+        "comment_requestKafkaTopic": "订阅数据topic,可以配置多个topic",
+        "requestKafkaTopic": {
+            "testtopic": "dylan.test"
+        }
+    },
+    "kafka2": {
+        "comment_schemaHost": "schema registry 地址",
+        "schemaHost": "http://armbigdatad01.wistron.com:8081",
+
+        "comment_kafkaHost": "kafka broker配置项",
+        "kafkaHost": "armbigdatad01.wistron.com:9193,armbigdatad02.wistron.com:9193,armbigdatad03.wistron.com:9193",
+
+        "comment_clientId": "kafka 客户端 ID,可自己定义",
+        "clientId": "wcd.cim.mtct.fms_20221219",
+
+        "comment_username&password": "kafka 访问账密",
+        "kafkaUsername": "wcd.cim",
+        "kafkaPassword": "3MuS#d2021",
+
+        "comment_publishKafkaTopic": "抛送目标topic,可以配置多个topic",
+        "publishKafkaTopic": {
+            "testtopic": "wcd.cim.mtct.fms"
+        },
+        "comment_requestKafkaTopic": "订阅数据topic,可以配置多个topic",
+        "requestKafkaTopic": {
+            "testtopic": "wcd.cim.mtct.fms"
+        }
+        
+    }
+}

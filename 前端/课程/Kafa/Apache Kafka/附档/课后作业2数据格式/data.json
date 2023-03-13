@@ -1,0 +1,12 @@
+{
+  "evt_ns" : "wcd.cim.m1.sfcs.modelupn",
+  "evt_tp" : "sfcoob_modelupn",
+  "evt_dt" : "1671696699798",
+  "evt_pubby" : "sfcoob_modelupn.nifi.91",
+  "syncid":"202212221611389300166957800000",
+  "syncop":"C",
+  "upn":"930016695780",
+  "model":"CYGL15TGLN",
+  "modelfamily":"4PD0QP01A001",
+  "createdate":"2022-12-22 16:11:38.0"
+}
