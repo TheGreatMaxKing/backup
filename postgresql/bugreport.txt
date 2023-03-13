@@ -1,0 +1,44 @@
+date/time          : 2023-01-30, 10:40:27, 745ms
+computer name      : WCD-3DEN6016
+user name          : D22070723
+registered owner   : WCDMIS / Wistron
+operating system   : Windows 10 x64 build 19043
+system language    : Chinese (Traditional)
+system up time     : 12 days 18 hours
+program up time    : 2 minutes 36 seconds
+processors         : 8x 11th Gen Intel(R) Core(TM) i7-1165G7 @ 2.80GHz
+physical memory    : 6909/16127 MB (free/total)
+free disk space    : (C:) 15.81 GB (D:) 93.31 GB
+display mode       : 1280x720, 32 bit
+process id         : $3f10
+allocated memory   : 165.38 MB
+largest free block : 131021.96 GB
+executable         : heidisql.exe
+exec. date/time    : 2022-04-12 19:56
+version            : 12.0.0.6468
+compiled with      : Delphi 10.4 Sydney
+madExcept version  : 5.1.2
+callstack crc      : $c0fbb8b1, $ab37be05, $ab37be05
+exception number   : 1
+exception class    : EAccessViolation
+exception message  : Access violation at address 000000018000D119 in module 'libpq-12.dll'. Read of address 0000000000000000.
+
+main thread ($4bcc):
+18000d11 libpq-12.dll                         PQgetlength
+00cf4f95 heidisql.exe dbconnection   8411 +32 TPGQuery.SetRecNo
+00cf40e4 heidisql.exe dbconnection   8245  +1 TDBQuery.First
+00cf2f68 heidisql.exe dbconnection   8035 +46 TPGQuery.Execute
+00cccbed heidisql.exe dbconnection   3816  +5 TDBConnection.GetLastResults
+0116462c heidisql.exe Main           3270 +18 TMainForm.AfterQueryExecution
+00d82909 heidisql.exe apphelpers     3053  +0 TQueryThread.Execute$ActRec.$1$Body
+00565abe heidisql.exe System.Classes          CheckSynchronize
+0089d8fd heidisql.exe Vcl.Forms               TApplication.WndProc
+0056bb83 heidisql.exe System.Classes          StdWndProc
+7ff9ad9d USER32.dll                           DispatchMessageW
+0089e56e heidisql.exe Vcl.Forms               TApplication.ProcessMessage
+0089e5e3 heidisql.exe Vcl.Forms               TApplication.HandleMessage
+0089ea31 heidisql.exe Vcl.Forms               TApplication.Run
+011ae678 heidisql.exe heidisql        105 +41 initialization
+7ff9ae42 KERNEL32.DLL                         BaseThreadInitThunk
+7ff9ae94 ntdll.dll                            RtlUserThreadStart
+

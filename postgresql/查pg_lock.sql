@@ -1,0 +1,15 @@
+BEGIN;
+	SET TRANSACTION ISOLATION LEVEL /*SERIALIZABLE*/ /*READ COMMITTED*/ /*REPEATABLE READ*/ READ UNCOMMITTED ;
+	show transaction_isolation; 
+	select * from pg_locks WHERE DATABASE=42799; 
+	select txid_current();
+	SELECT * FROM pg_database;
+	--SELECT * FROM pg_class;
+	SELECT * FROM students WHERE id=1;
+	--SELECT pg_sleep(5);
+	UPDATE students SET score=score+20 WHERE ID=1;
+	SELECT * FROM pg_class;
+	select * from pg_locks WHERE DATABASE=42799; 
+	--SELECT pg_sleep(5);
+	--SAVEPOINT s;
+COMMIT;

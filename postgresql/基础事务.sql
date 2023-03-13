@@ -1,0 +1,4 @@
+BEGIN;
+	INSERT INTO test VALUES(8,99);
+	SELECT * FROM test;
+COMMIT;
